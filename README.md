@@ -19,8 +19,7 @@ We try to test Laravel 5.2 with different logger endpoints and handlers:
 
 ```
 docker-compose up -d
-docker-compose exec php71 sh
-composer install
+docker-compose exec php71 composer install
 ```
 
 ## Tests

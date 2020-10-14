@@ -9,7 +9,7 @@ export let options = {
 };
 
 export default function() {
-  let res = http.get(`http://127.0.0.1:8080/${__ENV.MY_HOSTNAME}`);
+  let res = http.get(`http://127.0.0.1:8071/${__ENV.MY_HOSTNAME}`);
   check(res, {
     "is status 200": r => r.status === 200
   });
