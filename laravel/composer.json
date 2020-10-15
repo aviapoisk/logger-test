@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "mongodb/mongodb": "^1.7",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "sentry/sentry-laravel": "^1.9"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
